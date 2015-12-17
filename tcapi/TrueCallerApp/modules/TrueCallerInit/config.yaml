@@ -1,5 +1,0 @@
-truecaller:
-    login: http://www.truecaller.com/sign-in/yahoo
-    username: YAHOO_USERNAME
-    password: YAHOO_PASSWORD
-    logging: 20
