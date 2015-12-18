@@ -22,7 +22,7 @@ wait = WebDriverWait(browser, 10)
 wait.until(lambda driver: driver.current_url == "http://www.truecaller.com/sign-in/yahoo")
 # browser.
 print "loged yahoo"
-browser.get("https://www.truecaller.com/in/9461219803")
+browser.get("https://www.truecaller.com/in/<number>")
 
 html = browser.page_source
 soup = BeautifulSoup(html, "lxml")
